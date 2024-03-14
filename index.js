@@ -18,9 +18,9 @@ app.post('/send-email', async (req, res) => {
     const response = await axios.post(
       'https://api.postmarkapp.com/email',
       {
-        From: 'test@link-up.se',
+        From: 'elias@link-up.se',
         // Eliassulaiman175@gmail.com
-        To: 'anthonydicker94@gmail.com',
+        To: 'Eliassulaiman175@gmail.com',
         Subject: 'Postmark test',
         TextBody: 'Hello dear Postmark user.',
         HtmlBody: `<html>
